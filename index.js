@@ -8,7 +8,7 @@ const port = process.env.PORT || 8800;
 const app = express();
 
 app.get('/', function(req, res){
-    res.send('Adex Web Scraper'.toUpperCase() + "<br/>This scraper returns the body content of a web page"
+    res.send('Adex Web Scraper'.toUpperCase() + "<br/><br/>This scraper returns the body content of a web page"
         +"<br/> To use this scraper, "
         + "add '\/scrape\/?url=the url of the site to be scraped' to the url of"
         +" the Adex web scraper home page.");
