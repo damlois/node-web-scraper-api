@@ -9,9 +9,10 @@ what things you need to run the API
 * npm install express --save
 * npm install request --save
 * npm install cheerio --save
+* npm install -g nodemon save --dev
 
 ## How to run the api
-use the second command if nodemon the nodemon module is insatalled
+use the second command if the nodemon module is insatalled
 * node index.js
 * nodemon index.js
 
