@@ -7,6 +7,7 @@ what things you need to run the API
 
 ## Modules installation
 * npm install express --save
+* npm install redis --save
 * npm install request --save
 * npm install cheerio --save
 * npm install -g nodemon --save -dev
@@ -28,6 +29,8 @@ This project is licensed under the MIT license
 ## Routes
 |                   NAME                         |   ENDPOINT            |
 | -----------------------------------------------| ----------------------|
-| base                                           |      /                |
-| scrape website                                 | /scrape/?url=...      |
+| base [GET]                                     |      /                |
+| scrape website [GET]                           | /scrape/?url=...      |
+| move scraped file to redis [POST]              | /move/?filename=...   |
+| get file content[GET]                          | /file/?filename=...   |
 
